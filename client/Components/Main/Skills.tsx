@@ -1,4 +1,6 @@
 import React from 'react'
+import SkillDataProvider from '../Sub/SkillDataProvider'
+import { Skill_data } from '@/Constants'
 
 const Skills = () => {
     return (
