@@ -27,14 +27,7 @@ const Encryption = () => {
             </div>
 
             <div className="w-full flex items-start justify-center absolute">
-                <video loop
-                    muted
-                    autoPlay
-                    playsInline
-                    preload="false"
-                    className="w-full h-auto"
-                    src="/encryption.webm/"
-                />
+                <video loop muted autoPlay playsInline preload="false" className="w-full h-auto" src="/encryption.webm/" />
             </div>
         </div>
     )
