@@ -16,6 +16,11 @@ const SkillDataProvider = ({ src, width, height, index }: Props) => {
         triggerOnce: true
     })
 
+    const imageVariants = {
+        hidden: { opacity: 0 },
+        visible: { opacity: 1 }
+    }
+
     return (
         <div>
 
